@@ -11,4 +11,4 @@ zipp==3.18.1
 Gunicorn
 requests
 numpy
-pickle
+Pickle

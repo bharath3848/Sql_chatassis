@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open("C:/Users/bhara/Desktop/PRO/src/Thyroid_model.pkl", "rb") as model_file:
+with open("https://github.com/bharath3848/Thyroid_Prediction/blob/main/src/Thyroid_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Define the prediction function

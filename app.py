@@ -18,8 +18,8 @@ def index():
 def moreinfo():
     return render_template('moreinfo.html')
 
-#@app.route("/predict", methods = ["GET", "POST"])
-#def predict():
+@app.route("/predict", methods = ["GET", "POST"])
+def predict():
    # return render_template('predict.html')
 
 @app.route("/predictresult", methods = ["GET", "POST"])

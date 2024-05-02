@@ -20,7 +20,7 @@ def moreinfo():
 
 @app.route("/predict", methods = ["GET", "POST"])
 def predict():
-   # return render_template('predict.html')
+    return render_template('predict.html')
 
 @app.route("/predictresult", methods = ["GET", "POST"])
 def predictresult():

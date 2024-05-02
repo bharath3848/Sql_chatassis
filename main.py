@@ -49,17 +49,17 @@ def main():
         prediction = predict_thyroid(Age, Sex, TSH, TT4, FTI, on_thyroxine, on_antithyroid_medication, goitre, hypopituitary, psych, T3_measured)
         st.write(f"Patient has {prediction}")
 
-    def render_template(file_path):
-        with open(file_path, "r") as f:
-            template_content = f.read()
-        return template_content
+   # def render_template(file_path):
+        #with open(file_path, "r") as f:
+         #   template_content = f.read()
+        #return template_content
 
 
 
     # Include HTML templates
-    st.markdown(render_template("C:/Users/bhara/Desktop/PRO/templates/home.html"), unsafe_allow_html=True)
-    st.markdown(render_template("C:/Users/bhara/Desktop/PRO/templates/moreinfo.html"), unsafe_allow_html=True)
-    st.markdown(render_template("C:/Users/bhara/Desktop/PRO/templates/predict.html"), unsafe_allow_html=True)
+    #st.markdown(render_template("C:/Users/bhara/Desktop/PRO/templates/home.html"), unsafe_allow_html=True)
+    #st.markdown(render_template("C:/Users/bhara/Desktop/PRO/templates/moreinfo.html"), unsafe_allow_html=True)
+    #st.markdown(render_template("C:/Users/bhara/Desktop/PRO/templates/predict.html"), unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
